@@ -16,6 +16,7 @@
 		35873C1C2A7185800044C7E3 /* iOSAppWithTestsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35873C1B2A7185800044C7E3 /* iOSAppWithTestsTests.swift */; };
 		35873C262A7185800044C7E3 /* iOSAppWithTestsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35873C252A7185800044C7E3 /* iOSAppWithTestsUITests.swift */; };
 		35873C282A7185800044C7E3 /* iOSAppWithTestsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35873C272A7185800044C7E3 /* iOSAppWithTestsUITestsLaunchTests.swift */; };
+		35873C3B2A7189F20044C7E3 /* iOSAppWithTestsTests_No_Host.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35873C3A2A7189F20044C7E3 /* iOSAppWithTestsTests_No_Host.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +28,13 @@
 			remoteInfo = iOSAppWithTests;
 		};
 		35873C222A7185800044C7E3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 35873BF92A71857F0044C7E3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 35873C002A71857F0044C7E3;
+			remoteInfo = iOSAppWithTests;
+		};
+		35873C3C2A7189F20044C7E3 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 35873BF92A71857F0044C7E3 /* Project object */;
 			proxyType = 1;
@@ -49,6 +57,8 @@
 		35873C212A7185800044C7E3 /* iOSAppWithTestsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iOSAppWithTestsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		35873C252A7185800044C7E3 /* iOSAppWithTestsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOSAppWithTestsUITests.swift; sourceTree = "<group>"; };
 		35873C272A7185800044C7E3 /* iOSAppWithTestsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOSAppWithTestsUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		35873C382A7189F20044C7E3 /* iOSAppWithTestsTests-No-Host.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "iOSAppWithTestsTests-No-Host.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		35873C3A2A7189F20044C7E3 /* iOSAppWithTestsTests_No_Host.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOSAppWithTestsTests_No_Host.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +83,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		35873C352A7189F20044C7E3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -82,6 +99,7 @@
 				35873C032A71857F0044C7E3 /* iOSAppWithTests */,
 				35873C1A2A7185800044C7E3 /* iOSAppWithTestsTests */,
 				35873C242A7185800044C7E3 /* iOSAppWithTestsUITests */,
+				35873C392A7189F20044C7E3 /* iOSAppWithTestsTests-No-Host */,
 				35873C022A71857F0044C7E3 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -92,6 +110,7 @@
 				35873C012A71857F0044C7E3 /* iOSAppWithTests.app */,
 				35873C172A7185800044C7E3 /* iOSAppWithTestsTests.xctest */,
 				35873C212A7185800044C7E3 /* iOSAppWithTestsUITests.xctest */,
+				35873C382A7189F20044C7E3 /* iOSAppWithTestsTests-No-Host.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -125,6 +144,14 @@
 				35873C272A7185800044C7E3 /* iOSAppWithTestsUITestsLaunchTests.swift */,
 			);
 			path = iOSAppWithTestsUITests;
+			sourceTree = "<group>";
+		};
+		35873C392A7189F20044C7E3 /* iOSAppWithTestsTests-No-Host */ = {
+			isa = PBXGroup;
+			children = (
+				35873C3A2A7189F20044C7E3 /* iOSAppWithTestsTests_No_Host.swift */,
+			);
+			path = "iOSAppWithTestsTests-No-Host";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -183,6 +210,24 @@
 			productReference = 35873C212A7185800044C7E3 /* iOSAppWithTestsUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
+		35873C372A7189F20044C7E3 /* iOSAppWithTestsTests-No-Host */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 35873C3E2A7189F20044C7E3 /* Build configuration list for PBXNativeTarget "iOSAppWithTestsTests-No-Host" */;
+			buildPhases = (
+				35873C342A7189F20044C7E3 /* Sources */,
+				35873C352A7189F20044C7E3 /* Frameworks */,
+				35873C362A7189F20044C7E3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				35873C3D2A7189F20044C7E3 /* PBXTargetDependency */,
+			);
+			name = "iOSAppWithTestsTests-No-Host";
+			productName = "iOSAppWithTestsTests-No-Host";
+			productReference = 35873C382A7189F20044C7E3 /* iOSAppWithTestsTests-No-Host.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -204,6 +249,9 @@
 						CreatedOnToolsVersion = 14.2;
 						TestTargetID = 35873C002A71857F0044C7E3;
 					};
+					35873C372A7189F20044C7E3 = {
+						CreatedOnToolsVersion = 14.2;
+					};
 				};
 			};
 			buildConfigurationList = 35873BFC2A71857F0044C7E3 /* Build configuration list for PBXProject "iOSAppWithTests" */;
@@ -222,6 +270,7 @@
 				35873C002A71857F0044C7E3 /* iOSAppWithTests */,
 				35873C162A7185800044C7E3 /* iOSAppWithTestsTests */,
 				35873C202A7185800044C7E3 /* iOSAppWithTestsUITests */,
+				35873C372A7189F20044C7E3 /* iOSAppWithTestsTests-No-Host */,
 			);
 		};
 /* End PBXProject section */
@@ -245,6 +294,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		35873C1F2A7185800044C7E3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		35873C362A7189F20044C7E3 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -281,6 +337,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		35873C342A7189F20044C7E3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				35873C3B2A7189F20044C7E3 /* iOSAppWithTestsTests_No_Host.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -293,6 +357,11 @@
 			isa = PBXTargetDependency;
 			target = 35873C002A71857F0044C7E3 /* iOSAppWithTests */;
 			targetProxy = 35873C222A7185800044C7E3 /* PBXContainerItemProxy */;
+		};
+		35873C3D2A7189F20044C7E3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 35873C002A71857F0044C7E3 /* iOSAppWithTests */;
+			targetProxy = 35873C3C2A7189F20044C7E3 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -556,6 +625,36 @@
 			};
 			name = Release;
 		};
+		35873C3F2A7189F20044C7E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mattrobinson.iOSAppWithTestsTests-No-Host";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		35873C402A7189F20044C7E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mattrobinson.iOSAppWithTestsTests-No-Host";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -591,6 +690,15 @@
 			buildConfigurations = (
 				35873C322A7185800044C7E3 /* Debug */,
 				35873C332A7185800044C7E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		35873C3E2A7189F20044C7E3 /* Build configuration list for PBXNativeTarget "iOSAppWithTestsTests-No-Host" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				35873C3F2A7189F20044C7E3 /* Debug */,
+				35873C402A7189F20044C7E3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
